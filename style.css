@@ -1,0 +1,55 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+h1 {
+    margin: 30px;
+}
+
+#choose-move {
+    font-size: 20px;
+}
+
+.container {
+    /* making width of container smaller so when use the flex wrap stuff it won't be too spread out */
+    width: 75%;
+    /* centering the container now that i've put it at 75% */
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+button {
+    padding: 10px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    border-radius: 6px;
+    background-color: rgb(143, 191, 255); 
+    color: white;
+    box-shadow: 2px 2px 7px rgba(28, 161, 255, 0.5);
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color:  rgb(143, 191, 255);
+}
+
+.outcome-div {
+    background-color: rgb(255, 245, 214);
+}
+
+  
+/* .fadeInDiv {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  #fade-in  {
+    opacity: 1;
+  } */
